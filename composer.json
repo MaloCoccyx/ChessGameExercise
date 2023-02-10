@@ -1,0 +1,19 @@
+{
+    "name": "malococcyx/chess",
+    "description": "A chess game",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Chess\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MaloCoccyx",
+            "email": "malococcyx50@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2"
+    }
+}
